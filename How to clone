@@ -18,4 +18,7 @@ b) You can also add a specific file like:
 
 Bash :git add filename.java
 
-git add . && git commit -m "Your message" && git push origin main
+Conclusion - git add . && git commit -m "Your message" && git push origin main
+
+#HOW TO ADD A BRANCH
+git push origin your-branch-name
