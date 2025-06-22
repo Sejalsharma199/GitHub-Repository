@@ -17,3 +17,26 @@ What to do: Use git commit -m "your message" to commit.
 Meaning: Nothing has changed in your working directory. Everything is clean and matches the last commit.
 
 Status shown: nothing to commit, working tree clean
+
+
+# ADD AND COMMIT 
+Untracked / Modified --> staged --> commit
+
+🔹 1. git add – Stage the changes
+This tells Git to track the file or include it in the next commit (which is created in vs code)
+bash : git add filename
+
+✅ To add everything (all modified & new files):
+bash : git add .
+
+🔹 2. git commit – Save a snapshot
+This creates a new commit with a message describing the changes.
+bash : git commit -m "your message here"
+
+🔹 3. Push to GitHub
+Upload local repo content to remote repo , push the commits:
+bash : git push origin main
+
+
+
+
