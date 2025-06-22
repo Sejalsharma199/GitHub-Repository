@@ -1,0 +1,19 @@
+✅ 1. Untracked Files (Newfile)
+Meaning: Files that Git doesn’t know about. You’ve created them, but haven’t added them to the repository yet.
+
+What to do: Run git add file.txt to start tracking.
+
+✅ 2. Modified Files (change)
+Meaning: These are files Git is already tracking, and you've made changes, but haven’t staged them yet.
+
+What to do: Use git add file.txt to move to staged.
+
+✅ 3. Staged Files (Changes to be committed)
+Meaning: Changes have been added using git add and are ready to be committed.
+
+What to do: Use git commit -m "your message" to commit.
+
+✅ 4. Unmodified (Clean)
+Meaning: Nothing has changed in your working directory. Everything is clean and matches the last commit.
+
+Status shown: nothing to commit, working tree clean
