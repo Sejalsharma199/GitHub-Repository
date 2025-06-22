@@ -19,6 +19,7 @@ Run this command:
 git clone https://github.com/sejalsharma/how-to-use-github.git
 
 Step 3: We change directory by : cd GitHub-Repository (And like thi we go inside the folder repository )
+Note- to come out of directory (cd .. )
 #ls command - to check the total number of files
 #ls -Force - It show total number of files along with hidden files
 
